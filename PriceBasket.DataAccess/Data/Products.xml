@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <product name="Soup" price="0.65" />
+  <product name="Bread" price="0.80">
+    <discounts>
+      <discount type="1" value="50.00" start="09/02/2015" end="15/02/2015">
+        <discountConditions>
+          <discountCondition productName="Soup" type="0" value="2" />
+        </discountConditions>
+      </discount>
+    </discounts>
+  </product>
+  <product name="Milk" price="1.30" />
+  <product name="Apples" price="1.00">
+    <discounts>
+      <discount type="1" value="10.00" start="09/02/2015" end="15/02/2015" />
+    </discounts>
+  </product>
+</products>
